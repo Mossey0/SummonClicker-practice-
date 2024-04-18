@@ -1,0 +1,44 @@
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.stats-header {
+    font-size: 30px;
+}
+
+.stat-number-container {
+    display: flex;
+    width: 100%;
+    height: 90%
+}
+
+.stats-screen {
+    width: 50%;
+    height: 100%;
+}
+
+.monster-stats {
+    width: 50%;
+    height: 100%;
+}
+
+.monster--container-text {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.monster--container-text-div {
+    text-align: center;
+}
+.test {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.p-text {
+    font-size: 20px;
+}

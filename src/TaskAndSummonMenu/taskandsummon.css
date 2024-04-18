@@ -1,0 +1,62 @@
+.taskandsummon--container {
+    height: 100%;
+    width: 40%;
+}
+
+.selection-select {
+    display: flex;
+    gap: 3px;
+    margin-right: 10px
+}
+
+.selection-tab {
+    border: 1px solid rgb(165, 143, 143);
+    border-bottom: none;
+    padding: 6px;
+    padding-bottom: 0px;
+}
+.selction-tab:hover {
+    cursor: pointer;
+}
+
+.mapped-wrapper {
+    overflow-y: scroll;
+    height: 90%;
+}
+
+.mapped-wrapper::-webkit-scrollbar {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.mapped-wrapper::-webkit-scrollbar-thumb{
+    background-color: rgb(133, 22, 22);
+    border-radius: 5px;
+
+}
+.mapped-wrapper::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+
+}
+
+.item--container {
+    margin: 10px;
+    padding: 10px;
+    padding-left:20px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.item-img {
+    width: 150px;
+    height: 150px;
+}
+
+.item--span {
+    display: flex;
+    justify-content: space-between;
+    
+}
